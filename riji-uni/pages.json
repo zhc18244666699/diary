@@ -1,0 +1,86 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "Diary",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/list/list",
+			"style": {
+				"navigationBarTitleText": "列表"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path" : "pages/writeDiary/writeDiary",
+			"style": {
+				"navigationBarTitleText": "日记时刻"
+			}
+		},
+		{
+			"path" : "pages/address/address",
+			"style" : {
+				"navigationBarTitleText": "地理位置"
+			}
+		},
+		{
+			"path" : "pages/detail/detail",
+			"style" : {
+				"navigationBarTitleText": "日记详情"
+			}
+		}
+		,{
+			"path" : "pages/teach/teach",
+			"style" : {
+				"navigationBarTitleText": "使用教程"
+			}
+		}
+		,{
+			"path" : "pages/feedback/feedback",
+			"style" : {
+				"navigationBarTitleText": "反馈"
+			}
+		}
+		,{
+			"path" : "pages/aabout/aabout",
+			"style" : {
+				"navigationBarTitleText": "关于"
+			}
+		}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#1296db",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/home/home",
+	        "iconPath": "static/riji.png",
+	        "selectedIconPath": "static/riji2.png",
+	        "text": "日记"
+	    }, {
+	        "pagePath": "pages/list/list",
+	        "iconPath": "static/list.png",
+	        "selectedIconPath": "static/list2.png",
+	        "text": "列表"
+	    }, {
+	        "pagePath": "pages/my/my",
+	        "iconPath": "static/wode.png",
+	        "selectedIconPath": "static/wode2.png",
+	        "text": "我的"
+	    }]
+	}
+}

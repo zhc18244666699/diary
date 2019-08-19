@@ -1,0 +1,27 @@
+
+.about-wrap {
+	width: 100%;
+	height: 100%;
+}
+.about-erweima {
+	width: 100%;
+	height: 450rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin: 50rpx 0;
+}
+.about-erweima ._div {
+	width: 50%;
+	margin: auto;
+}
+.about-erweima ._div image {
+	width: 100%;
+}
+.about-name, .about-version, .about-describe {
+	width: 100%;
+	margin: 40rpx 0;
+	text-align: center;
+}
+

@@ -1,0 +1,32 @@
+
+.feedback-wrap {
+	width: 100%;
+	height: 100%;
+}
+.feedback-textarea {
+	width: 100%;
+	height: 400rpx;
+}
+.feedback-textarea textarea {
+	width: 96%;
+	height: 100%;
+	border: 2rpx solid #ccc;
+	margin: 4% 2%;
+	font-size: 30rpx;
+}
+.feedback-phone {
+	width: 96%;
+	height: 80rpx;
+	margin: 4% 2%;
+	border: 2rpx solid #ccc;
+	font-size: 30rpx;
+	line-height: 120rpx;
+}
+.feedback-phone input {
+	line-height: 120rpx;
+}
+.feedback-submit {
+	margin: 4% 2%;
+	width: 96%;
+}
+

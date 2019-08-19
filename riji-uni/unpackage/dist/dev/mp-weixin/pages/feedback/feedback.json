@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "反馈",
+  "usingComponents": {
+    "message-top": "/components/messageTip/index"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/list/list",
+    "pages/my/my",
+    "pages/writeDiary/writeDiary",
+    "pages/address/address",
+    "pages/detail/detail",
+    "pages/teach/teach",
+    "pages/feedback/feedback",
+    "pages/aabout/aabout"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#1296db",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/riji.png",
+        "selectedIconPath": "static/riji2.png",
+        "text": "日记"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "iconPath": "static/list.png",
+        "selectedIconPath": "static/list2.png",
+        "text": "列表"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/wode.png",
+        "selectedIconPath": "static/wode2.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap14.json"
+}

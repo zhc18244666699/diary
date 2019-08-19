@@ -1,0 +1,41 @@
+
+.detail-wrap {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.swiper {
+	width: 100%;
+	height: 400rpx;
+	margin-bottom: 10rpx;
+}
+.detail-swiper {
+	width: 100%;
+}
+.detail-swiper image{
+	width: 100%;
+}
+.detail-title {
+	width: 100%;
+	height: 100rpx;
+	text-align: center;
+	margin: 10rpx 0;
+}
+.detail-title ._h5 {
+	font-size: 42rpx;
+	font-weight: 600;
+	color: #000000;
+}
+.detail-title ._span {
+	font-size: 30rpx;
+	color: #CCCCCC;
+}
+.detail-content {
+	width: 92%;
+	margin: 10rpx 4%;
+	letter-spacing: 2rpx;
+	font-size: 26rpx;
+	text-indent: 48rpx;
+	line-height: 54rpx;
+}
+

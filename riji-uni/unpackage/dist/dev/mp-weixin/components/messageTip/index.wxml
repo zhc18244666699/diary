@@ -1,0 +1,1 @@
+<block wx:if="{{isShow}}"><view class="message-wrap"><view class="_p">{{showMessage}}</view></view></block>

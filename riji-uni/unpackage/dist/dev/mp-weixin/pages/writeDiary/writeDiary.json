@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "日记时刻",
+  "usingComponents": {
+    "message-top": "/components/messageTip/index"
+  }
+}

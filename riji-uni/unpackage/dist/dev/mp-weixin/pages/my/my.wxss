@@ -1,0 +1,53 @@
+
+.my-wrap {
+	width: 100%;
+	height: 100%;
+}
+.getUserInfo {
+	width: 100%;
+	height: 250rpx;
+	border-bottom: 2rpx solid #eee;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.userInfo {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin: 10rpx 0;
+}
+.userInfo ._h4 {
+	margin: 75rpx 100rpx;
+	line-height: 100rpx;
+}
+.userInfo-image {
+	width: 200rpx;
+	height: 200rpx;
+	border-radius: 100%;
+	margin:30rpx;
+	overflow: hidden;
+}
+.userInfo-image image {
+	width: 100%;
+	height: 100%;
+}
+.getUserInfo-button {
+	width: 300rpx;
+	height: 80rpx;
+	font-size: 30rpx;
+	margin: auto;
+}
+.teach, .feedback, .about {
+	width: 100%;
+	height: 80rpx;
+	line-height: 80rpx;
+	font-size: 30rpx;
+	padding: 10rpx 30rpx;
+	margin: 10rpx 0;
+	border-bottom: 2rpx solid #eee;
+}
+
